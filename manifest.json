@@ -1,7 +1,7 @@
 {
     "version": "0.1",
     "dumper" : {
-        "data_url" : "https://www.dropbox.com/s/cbtamwk9u0xdhgo/pfocr_biothings.ndjson?dl=0",
+        "data_url" : "https://raw.githubusercontent.com/kevinxin90/pfocr/master/pfocr_biothings.ndjson%3Fdl%3D0",
         "uncompress" : false,
         "release" : "version:get_release"
     },
