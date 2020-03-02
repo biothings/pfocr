@@ -1,0 +1,12 @@
+{
+    "version": "0.1",
+    "dumper" : {
+        "data_url" : "https://www.dropbox.com/s/cbtamwk9u0xdhgo/pfocr_biothings.ndjson?dl=0",
+        "uncompress" : false,
+        "release" : "version:get_release"
+    },
+    "uploader" : {
+        "parser" : "parser:load_data",
+        "on_duplicates" : "ignore"
+    }
+}
