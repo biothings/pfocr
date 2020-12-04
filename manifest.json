@@ -1,12 +1,12 @@
 {
     "version": "0.1",
-    "dumper" : {
-        "data_url" : "https://raw.githubusercontent.com/kevinxin90/pfocr/master/pfocr_biothings.ndjson",
-        "uncompress" : false,
-        "release" : "version:get_release"
+    "dumper": {
+        "data_url": "http://localhost:8081/dataupload/src/pfocr_biothings_65k_20201203.json",
+        "uncompress": false,
+        "release": "version:get_release"
     },
-    "uploader" : {
-        "parser" : "parser:load_data",
-        "on_duplicates" : "ignore"
+    "uploader": {
+        "parser": "parser:load_data",
+        "on_duplicates": "ignore"
     }
 }
