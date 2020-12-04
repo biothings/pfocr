@@ -7,4 +7,6 @@ def load_data(data_folder):
     with open(file_path) as f:
         for l in f.readlines():
             doc = json.loads(l)
+            if not isinstance(doc['associatedWith']['pubmed'], str):
+                doc['associatedWith'].pop("pubmed")
             yield doc
