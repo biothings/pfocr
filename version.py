@@ -1,2 +1,2 @@
 def get_release(self):
-    return "2.0"
+    return "2022-04-05"
