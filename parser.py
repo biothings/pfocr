@@ -3,10 +3,10 @@ import json
 
 
 def load_data(data_folder):
-    file_path = os.path.join(data_folder, "pfocr_biothings_65k_20201203.json")
+    file_path = os.path.join(data_folder, "bte_chemicals_diseases_genes.json")
     with open(file_path) as f:
-        for l in f.readlines():
-            doc = json.loads(l)
-            if not isinstance(doc['associatedWith']['pubmed'], str):
-                doc['associatedWith'].pop("pubmed")
+        for line in f.readlines():
+            doc = json.loads(line)
+            if not isinstance(doc['associatedWith']['pmc'], str):
+                doc['associatedWith'].pop("pmc")
             yield doc

@@ -1,7 +1,7 @@
 {
     "version": "0.1",
     "dumper": {
-        "data_url": "http://localhost:8081/dataupload/src/pfocr_biothings_65k_20201203.json",
+        "data_url": "http://localhost:8080/dataupload/mysrc/bte_chemicals_diseases_genes.ndjson",
         "uncompress": false,
         "release": "version:get_release"
     },
