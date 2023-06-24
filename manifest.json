@@ -1,7 +1,7 @@
 {
     "version": "0.1",
     "dumper": {
-        "data_url": "http://localhost:8080/dataupload/mysrc/bte_chemicals_diseases_genes.ndjson",
+        "data_url": "http://localhost:8080/dataupload/mysrc/pfocr/bte_chemicals_diseases_genes.ndjson",
         "uncompress": false,
         "release": "version:get_release"
     },
